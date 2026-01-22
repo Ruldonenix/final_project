@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Joki dan Rawat Akun - Beranda</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Efek animasi saat halaman dibuka */
+        
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+        
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .slide-up {
+            transform: translateY(50px);
+            opacity: 0;
+            animation: slideUp 1s ease-out forwards;
+        }
+        
+        @keyframes slideUp {
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        /* Delay untuk elemen-elemen agar muncul bertahap */
+        
+        .hero-section {
+            animation-delay: 0.2s;
+        }
+        
+        .why-us-section {
+            animation-delay: 0.5s;
+        }
+        
+        .services-section {
+            animation-delay: 0.8s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-list" id="navList">
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="harga.html">Harga</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section fade-in slide-up">
+            <h1>Jasa Aman, dan Terpercaya</h1>
+            <p>Kamu cukup santai saja. biar kita yang rawat akun mu</p>
+        </section>
+
+        <section class="why-us-section fade-in slide-up">
+            <h2>Mengapa Memilih Jasa ini?</h2>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <p class="feature-title">🔒 Keamanan Terjamin</p>
+                    <p>Data akun Anda adalah prioritas kami. Semua joki dilakukan secara profesional dan rahasia.</p>
+                </div>
+
+                <div class="feature-card">
+                    <p class="feature-title">⚡ Proses Cepat</p>
+                    <p>Target tercapai dalam waktu yang disepakati, dengan update status real-time.</p>
+                </div>
+
+                <div class="feature-card">
+                    <p class="feature-title">💰 Harga Terbaik</p>
+                    <p>Kualitas terbaik dari joki berpengalaman dengan harga yang sangat kompetitif.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section fade-in slide-up">
+            <h2>Layanan Populer Kami</h2>
+            <p>Kami melayani berbagai game seperti Genshin Impact, Honkai Star Rail, dan lainnya.</p>
+            <div class="cards-container">
+                <div class="card">
+                    <h4>Daily & Farming</h4>
+                    <p>Mencakup semua tugas harian, resin, dan pengumpulan material.</p>
+                    <p><a href="harga.html">Lihat Detail</a></p>
+                </div>
+                <div class="card">
+                    <h4>Rawat Akun Mingguan/Bulanan</h4>
+                    <p>Paket lengkap mingguan untuk memastikan akun Anda selalu optimal.</p>
+                    <p><a href="harga.html">Cek Harga</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jasa Rawat Akun.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
