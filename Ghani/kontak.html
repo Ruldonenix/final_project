@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Joki dan Rawat Akun - Kontak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-list" id="navList">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="harga.html">Harga</a></li>
+                <li><a href="kontak.html" class="active">Kontak</a></li>
+                <li><a href="registerForm.php">Buat Akun</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="kontak-info">
+            <h2>Hubungi Kami</h2>
+            <p style="text-align: center; margin-bottom: 40px;">Kami siap melayani Anda. Pilih metode kontak favorit Anda.</p>
+
+            <div class="feature-grid">
+                <div class="feature-card" style="text-align: center;">
+                    <p class="feature-title">📞 WhatsApp</p>
+                    <p>Hubungi kami melalui WhatsApp untuk diskusi detail.</p>
+                    <p>+62 812-XXXX-XXXX</p>
+                </div>
+                <div class="feature-card" style="text-align: center;">
+                    <p class="feature-title">📧 Email</p>
+                    <p>Untuk pertanyaan formal, kerjasama, atau keluhan, kirimkan email.</p>
+                    <p>jasajoki.pro@email.com</p>
+                </div>
+                <div class="feature-card" style="text-align: center;">
+                    <p class="feature-title">💬 Instagram</p>
+                    <p>Lihat update harian kami dan kirim pesan langsung.</p>
+                    <p>@JasaJokiAkunPro</p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 40px; text-align: center;">Kirim Pesan Langsung</h3>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <label for="nama">Nama Anda:</label>
+                    <input type="text" id="nama" name="nama" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="game">Game yang Dimainkan:</label>
+                    <input type="text" id="game" name="game" required>
+
+                    <label for="pesan">Detail Jasa yang Dibutuhkan:</label>
+                    <textarea id="pesan" name="pesan" rows="5" required></textarea>
+
+                    <button type="submit">Kirim Permintaan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jasa Rawat Akun.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
