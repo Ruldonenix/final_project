@@ -12,8 +12,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="styleRegister.css">
 </head>
 <body>
+    <div class="login-container">
     <h1>REGISTER</h1>
     <form action="" method="post">
         <table>
@@ -36,12 +38,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 <td></td>
                 <td></td>
                 <td>
-                    <input type="reset" value="RESET" id="reset">
                     <input type="submit" value="REGISTER" id="register">
                 </td>
             </tr>
         </table>
     </form>
-    <a href="/loginForm.php">Login</a>
+    <a href="./loginForm.php">Sudah punya akun? Login</a>
+    </div>
 </body>
 </html>
